@@ -125,7 +125,7 @@ export const textGenModels: Model[] = [{
     type: 'chat'
 }, {
     id: '@cf/meta/llama-3.2-11b-vision-instruct',
-    name: '@cf/meta/llama-3.2-11b-vision-instruct',
+    name: 'llama-3.2-11b-vision-instruct',
     provider: 'workers-ai',
     type: 'chat'
 }, {
