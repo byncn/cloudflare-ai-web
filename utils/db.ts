@@ -62,7 +62,7 @@ export const DB = new Database();
 export const initialSettings = {
     openaiKey: '',
     image_steps: 20,
-    system_prompt: 'You are ChatGPT, a large language model trained by OpenAI. Follow the user\'s instructions carefully. Respond using markdown.',
+    system_prompt: '这是ChatGPT，一个由OpenAI训练的大型语言模型。请仔细按照用户的指示进行操作。使用markdown进行回复。',
 }
 
 export type Settings = typeof initialSettings
@@ -104,6 +104,51 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
+    id: '@hf/google/gemma-7b-it',
+    name: 'gemma-7b-it',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/meta-llama/meta-llama-3-8b-instruct',
+    name: 'meta-llama-3-8b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/mistral/mistral-7b-instruct-v0.2',
+    name: 'mistral-7b-instruct-v0.2',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/google/gemma-7b-it',
+    name: 'gemma-7b-it',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/google/gemma-7b-it',
+    name: 'gemma-7b-it',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/google/gemma-7b-it',
+    name: 'gemma-7b-it',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/google/gemma-7b-it',
+    name: 'gemma-7b-it',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/thebloke/deepseek-coder-6.7b-instruct-awq',
+    name: 'deepseek-coder-6.7b-instruct-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/meta/llama-3.2-11b-vision-instruct',
+    name: '@cf/meta/llama-3.2-11b-vision-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
     id: '@hf/thebloke/openhermes-2.5-mistral-7b-awq',
     name: 'openhermes-2.5-mistral-7b-awq',
     provider: 'workers-ai',
@@ -116,6 +161,16 @@ export const textGenModels: Model[] = [{
 }, {
     id: '@hf/nexusflow/starling-lm-7b-beta',
     name: 'starling-lm-7b-beta',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/meta/llama-3.2-3b-instruct',
+    name: 'llama-3.2-3b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/meta/llama-3.2-11b-vision-instruct',
+    name: '@cf/meta/llama-3.2-11b-vision-instruct',
     provider: 'workers-ai',
     type: 'chat'
 }, {
@@ -138,6 +193,21 @@ export const imageGenModels: Model[] = [{
 }, {
     id: '@cf/bytedance/stable-diffusion-xl-lightning',
     name: 'stable-diffusion-xl-lightning',
+    provider: 'workers-ai-image',
+    type: 'text-to-image'
+}, {
+    id: '@cf/black-forest-labs/flux-1-schnell',
+    name: 'flux-1-schnell',
+    provider: 'workers-ai-image',
+    type: 'text-to-image'
+}, {
+    id: '@cf/runwayml/stable-diffusion-v1-5-img2img',
+    name: 'stable-diffusion-v1-5-img2img',
+    provider: 'workers-ai-image',
+    type: 'text-to-image'
+}, {
+    id: '@cf/runwayml/stable-diffusion-v1-5-inpainting',
+    name: 'stable-diffusion-v1-5-inpainting',
     provider: 'workers-ai-image',
     type: 'text-to-image'
 }]
