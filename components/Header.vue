@@ -22,7 +22,7 @@ function handleReload() {
   <header class="blur-global dark:bg-neutral-800 shadow h-16 fixed w-full z-30 rounded-b-lg">
     <UContainer class="h-full flex items-center">
       <IButton name="i-heroicons-bars-3-20-solid" @click="openAside = !openAside"/>
-      <h1 @click="handleReload" class="text-lg font-bold ml-2 hover:cursor-pointer">CF AI Web</h1>
+      <h1 @click="handleReload" class="text-lg font-bold ml-2 hover:cursor-pointer">CloudFlare AI Web</h1>
       <IButton class="ml-auto" :name="isDark ? 'i-heroicons-moon' : 'i-heroicons-sun'"
                @click="toggleDark()"/>
     </UContainer>
