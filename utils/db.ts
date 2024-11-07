@@ -119,26 +119,6 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
-    id: '@hf/google/gemma-7b-it',
-    name: 'gemma-7b-it',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@hf/google/gemma-7b-it',
-    name: 'gemma-7b-it',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@hf/google/gemma-7b-it',
-    name: 'gemma-7b-it',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@hf/google/gemma-7b-it',
-    name: 'gemma-7b-it',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
     id: '@hf/thebloke/deepseek-coder-6.7b-instruct-awq',
     name: 'deepseek-coder-6.7b-instruct-awq',
     provider: 'workers-ai',
