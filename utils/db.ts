@@ -109,11 +109,6 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
-    id: '@hf/meta-llama/meta-llama-3-8b-instruct',
-    name: 'meta-llama-3-8b-instruct',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
     id: '@hf/mistral/mistral-7b-instruct-v0.2',
     name: 'mistral-7b-instruct-v0.2',
     provider: 'workers-ai',
@@ -141,21 +136,6 @@ export const textGenModels: Model[] = [{
 }, {
     id: '@hf/nexusflow/starling-lm-7b-beta',
     name: 'starling-lm-7b-beta',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@cf/meta/llama-3.2-3b-instruct',
-    name: 'llama-3.2-3b-instruct',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@cf/meta/llama-3.2-11b-vision-instruct',
-    name: '@cf/meta/llama-3.2-11b-vision-instruct',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@cf/meta/llama-3-8b-instruct',
-    name: 'llama-3-8b-instruct',
     provider: 'workers-ai',
     type: 'chat'
 }]
