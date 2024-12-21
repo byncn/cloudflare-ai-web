@@ -93,11 +93,6 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
-    id: '@cf/google/gemma-7b-it-lora',
-    name: 'gemma-7b-it-lora',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
     id: '@hf/google/gemma-7b-it',
     name: 'gemma-7b-it',
     provider: 'workers-ai',
@@ -108,8 +103,8 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
-    id: '@cf/meta/llama-3.2-11b-vision-instruct',
-    name: 'llama-3.2-11b-vision-instruct',
+    id: '@cf/meta/llama-3.3-70b-instruct-fp8-fast',
+    name: 'llama-3.3-70b-instruct-fp8-fast',
     provider: 'workers-ai',
     type: 'chat'
 }, {
