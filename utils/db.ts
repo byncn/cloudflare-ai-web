@@ -103,11 +103,6 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
-    id: '@hf/mistral/mistral-7b-instruct-v0.2',
-    name: 'mistral-7b-instruct-v0.2',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
     id: '@hf/thebloke/deepseek-coder-6.7b-instruct-awq',
     name: 'deepseek-coder-6.7b-instruct-awq',
     provider: 'workers-ai',
@@ -120,16 +115,6 @@ export const textGenModels: Model[] = [{
 }, {
     id: '@hf/thebloke/openhermes-2.5-mistral-7b-awq',
     name: 'openhermes-2.5-mistral-7b-awq',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@hf/thebloke/neural-chat-7b-v3-1-awq',
-    name: 'neural-chat-7b-v3-1-awq',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@hf/nexusflow/starling-lm-7b-beta',
-    name: 'starling-lm-7b-beta',
     provider: 'workers-ai',
     type: 'chat'
 }]
