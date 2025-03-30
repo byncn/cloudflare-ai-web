@@ -108,8 +108,8 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
-    id: '@hf/thebloke/openhermes-2.5-mistral-7b-awq',
-    name: 'openhermes-2.5-mistral-7b-awq',
+    id: '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
+    name: 'deepseek-r1-distill-qwen-32b',
     provider: 'workers-ai',
     type: 'chat'
 }]
