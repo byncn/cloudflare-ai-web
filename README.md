@@ -1,5 +1,7 @@
 # cloudflare-ai-web
 
+## ‼️预计使用react + hono + shadcn/ui 重构项目，敬请期待
+
 ## AI 启动！
 
 ### 一键部署（推荐）
